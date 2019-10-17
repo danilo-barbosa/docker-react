@@ -8,3 +8,4 @@ services:
 
   script:
     - docker run -e CI=true danilo-barbosa/docker-react npm run test
+    
