@@ -13,6 +13,8 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-1-936539926685"
   bucket_path: "docker-react"
   branches:
+    except:
+      - features 
     only:
       - master
   access_key_id:
